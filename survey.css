@@ -7,3 +7,8 @@ body {
 	background-color: #fff;
 }
 
+.breed {
+	visibility: hidden;
+}
+
+
