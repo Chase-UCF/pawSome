@@ -1,14 +1,38 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	background-color: #fff;
+    /*background-color: orange;*/
+   /* background-image: url("https://cdn.pixabay.com/photo/2014/08/21/14/51/pet-423398_960_720.jpg");
+background-repeat: no-repeat;
+background-size: cover;*/
+}
+
+.surveyBody {
+    background-color: rgba(12,85,242, 0.5);
+    
+}
+
+form {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .breed {
-	visibility: hidden;
+    visibility: hidden;
 }
 
+form label{
 
+}
+
+.radio-last {
+	
+}
