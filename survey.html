@@ -10,42 +10,48 @@
 </head>
 
 <body>
-    <div class="container quiz">
-        <form>
-            <label for="firstname"> #1 Enter your Location
-            </label>
-            </br>
-            <input type="text" name="firstname" placeholder="City or zip code"> </br>
-            <label for="gender">#2 Enter Gender</label>
-            </br>
-            <input type="radio" name="gender" value="male"> Male
-            <br>
-            <input type="radio" name="gender" value="female"> Female
-            <br>
-            <label for="size">#3 Small or Big Dog?</label>
-            <br>
-            <input type="radio" name="size" value="female"> Female
-            <br>
-            <input type="radio" name="size" value="male"> Male
-            <br>
-            <label for="age">#4 What age dog are you looking for?</label>
-            <br>
-            <input type="radio" name="age" value="baby"> Baby
-            <br>
-            <input type="radio" name="age" value="young"> Young
-            <br>
-            <input type="radio" name="age" value="adult"> Adult
-            <br>
-            <input type="radio" name="age" value="senior"> Senior
-            <br>
-            <label for="breed">#5 Does breed matter?</label>
-            <br>
-            <input type="radio" name="breed" value="yes"> Yes
-            <br>
-            <input class="no" type="radio" name="breed" value="no"> No
-            <br>
-            <input class="breed" type="text" placeholder="Specify Breed">
-        </form>
+    <div class="container">
+        <div class="surveyBody col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+            <form>
+                <label for="firstname"> #1 Enter your Location
+                </label>
+                <!-- </br> -->
+                <input type="text" name="firstname" placeholder="City or zip code">
+                <!-- </br> -->
+                <label for="gender">#2 Enter Gender</label>
+                <!--     </br> -->
+                <input type="radio" name="gender" value="male"> Male
+                <!-- <br> -->
+                <input class="radio-last" type="radio" name="gender" value="female"> Female
+                <!--  <br>
+                <br>
+                <br> -->
+                <label for="size">#3 Small or Big Dog?</label>
+                <br>
+                <input type="radio" name="size" value="small"> Small Dog
+                <!-- <br> -->
+                <input class="radio-last" type="radio" name="size" value="big"> Big Dog
+                <!-- br -->
+                <label for="age">#4 What age dog are you looking for?</label>
+                <!-- br -->
+                <input type="radio" name="age" value="baby"> Baby
+                <!-- br -->
+                <input type="radio" name="age" value="young"> Young
+                <!-- br -->
+                <input type="radio" name="age" value="adult"> Adult
+                <!-- br -->
+                <input class="radio-last" type="radio" name="age" value="senior"> Senior
+                <!-- br -->
+                <label for="breed">#5 Does breed matter?</label>
+                <!-- br -->
+                <input type="radio" name="breed" value="yes"> Yes
+                <!-- br -->
+                <input class="no radio-last" type="radio" name="breed" value="no"> No
+               <!-- br -->
+                <input class="breed" type="text" placeholder="Specify Breed">
+                <button class="btn btn-primary  col-xs-6 col-sm-6 text-center" type="submit"> Submit </button>
+            </form>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
