@@ -4,6 +4,7 @@
 }
 
 body {
+
     background-color: rgba(33, 161, 225, 0.8);
 }
 
@@ -112,6 +113,7 @@ h4 {
     margin-top: 50px;
     width: 100%;
 }
+<<<<<<< HEAD:survey.css
 
 .age-selector {
 	margin-top: 30px;
@@ -151,3 +153,9 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 #location {
 	visibility: visible;
 }
+=======
+    /*background-color: orange;*/
+   /* background-image: url("https://cdn.pixabay.com/photo/2014/08/21/14/51/pet-423398_960_720.jpg");
+background-repeat: no-repeat;
+background-size: cover;*/
+>>>>>>> a6e41c6ccf31de173b696dd9cec64a21d8823543:public/assets/css/survey.css
