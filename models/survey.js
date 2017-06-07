@@ -1,5 +1,5 @@
-$('.no').click(function() {
+$('.yes').click(function() {
     if ($(this).is(':checked')) {
-        $('.breed').css("visibility", "visible");
+        $('#blah, .blah').css("visibility", "visible");
     }
 });
