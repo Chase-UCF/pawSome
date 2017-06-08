@@ -7,5 +7,8 @@ sr.reveal('.animate3', 200);
 sr.reveal('.get-started-button', 120);
 });
 
-
-
+$(".slide").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".project").offset().top},
+        1200);
+});

@@ -10,6 +10,8 @@
     "materialize-autocomplete": "^1.0.7",
     "method-override": "^2.3.9",
     "mysql": "^2.13.0",
+    "path": "^0.12.7",
+    "petfinder": "^0.1.1",
     "save": "^2.3.0",
     "scrollmagic": "^2.0.5",
     "sequelize": "^3.30.4"
