@@ -9,4 +9,3 @@ $('.no').click(function() {
         $('#blah, .blah').css("visibility", "hidden");
     }
 });
-
