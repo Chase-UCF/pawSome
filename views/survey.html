@@ -17,7 +17,7 @@
                 <form class="col s12" action="/results" method="POST">
                     <div class="row">
                         <div class="input-field col s12">
-                            <input id="location" name="location" type="text" required class="validate" placeholder="City or Zip Code">
+                            <input id="location" name="location" type="text" required class="validate" placeholder="Zip Code Here">
                             <label for="location" data-error="wrong" data-success="right">
                                 <p class="locate-header">Enter a Location</p>
                             </label>
@@ -38,6 +38,7 @@
                     </p>
                     <div class="select-size">
                         <h4>Size</h4>
+                        <p>(specify one)</p>
                         <input type="checkbox" name="amount" id="small" value="S" class="input-hidden" />
                         <label for="small">
                             <h5 class="text-center">Small</h5>
@@ -64,6 +65,7 @@
                         </label>
                     </div>
                     <h4 class="age-selector">Age</h4>
+                    <p>(specify one)</p>
                     <p>
                         <input type="checkbox" id="puppy" name="age" value="baby" />
                         <label for="puppy">
@@ -114,39 +116,3 @@
 </body>
 
 </html>
-<!-- 
-  <form>
-                <label for="firstname"> Enter your Location
-                </label>
-                </br>
-                <input type="text" name="firstname" placeholder="City or zip code"> </br>
-                <label for="gender">Enter Gender</label>
-                </br>
-                <input type="radio" name="gender" value="male"> Male
-                <br>
-                <input type="radio" name="gender" value="female"> Female
-                <br>
-                <label for="size"> Small or Big Dog?</label>
-                <br>
-                <input type="radio" name="size" value="female"> Female
-                <br>
-                <input type="radio" name="size" value="male"> Male
-                <br>
-                <label for="age"> What age dog are you looking for?</label>
-                <br>
-                <input type="radio" name="age" value="baby"> Baby
-                <br>
-                <input type="radio" name="age" value="young"> Young
-                <br>
-                <input type="radio" name="age" value="adult"> Adult
-                <br>
-                <input type="radio" name="age" value="senior"> Senior
-                <br>
-                <label for="breed"> Does breed matter?</label>
-                <br>
-                <input type="radio" name="breed" value="yes"> Yes
-                <br>
-                <input type="radio" name="breed" value="no"> No
-                <br>
-                <input type="text" placeholder="Specify Breed">
-            </form> -->
